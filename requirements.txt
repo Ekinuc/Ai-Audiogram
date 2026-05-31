@@ -1,0 +1,7 @@
+numpy==2.4.4
+opencv-python==4.13.0.92
+tensorflow==2.21.0
+matplotlib==3.10.9
+streamlit==1.57.0
+pillow==12.2.0
+fpdf==1.7.2

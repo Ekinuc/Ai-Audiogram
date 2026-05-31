@@ -1,0 +1,28 @@
+# Ignore all files by default in this section
+# (Or use selective ignoring to target specifically what to keep out)
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+.DS_Store?
+._*
+
+# Ignore all keras models EXCEPT the specific one requested
+*.keras
+!Model_100K_FINAL_SNIPER_H.keras
+
+# Ignore other script files in the directory to keep the repository clean
+app.py
+output.py
+output2.py
+t_clean_11740.jpg
+
+# Ignore standard python cache folders
+__pycache__/
+*.py[cod]
+*$py.class
